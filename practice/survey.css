@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    font-family: monospace;
+    text-align: center;
+}
+
+form{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: black;
+}
+.form-prop{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-prop label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-prop input,
+.form-prop select,
+.form-prop textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-prop input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+ button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+ 

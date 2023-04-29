@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <!-- create form -->
+    <form class="form">
+        <div class="form-prop">
+            <label for="F_Name">Enter Your First name:</label>
+            <input type="text" name="F_Name" id="F_Name" placeholder="Enter First Name" required>
+        </div>
+        <div class="form-prop">
+            <label for="M_Name">Enter Your Middle name:</label>
+            <input type="text" name="M_Name" id="M_Name" placeholder="Enter Middle Name" required>
+        </div>
+        <div class="form-prop">
+            <label for="L_Name">Enter Your Last name:</label>
+            <input type="text" name="L_Name" id="L_Name" placeholder="Enter Last Name" required>
+        </div>
+        <div class="form-prop">
+            <label for="p_num">Enter Your Phone Number:</label>
+            <input type="number" name="p_num" id="p_num" placeholder="Enter Phone number" required maxlength="10">
+        </div>
+        <div class="form-prop">
+            <label for="Age">Enter Your Age:</label>
+            <input type="number" name="Age" id="Age" placeholder="Enter Your Age" required maxlength="3" max="100">
+        </div>
+        <!-- dropdown -->
+        <div class="form-prop">
+            <label for="Occu">Enter Your Occupation:</label>
+            <select name="occu" id="occu">
+                <option value="Student">Student</option>
+                <option value="employed">Employed</option>
+                <option value="occupation">Occupation</option>
+                <option value="bussiness">Business</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="housewife">House Wife</option>
+            </select>
+        </div>
+        <!-- checkbox -->
+        <div class="form-prop">
+            <label>Programming languages that you are intrested in:
+                <small>(Tick languages that you are interested in)</small>
+            </label><br>
+                
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">C</input>
+                </label>
+                <label for="inp-2">
+                    <input type="checkbox" name="inp">C++</input>
+                </label>
+                <label for="inp-3">
+                    <input type="checkbox" name="inp">c#</input>
+                </label>
+                <label for="inp-4">
+                    <input type="checkbox" name="inp">Java</input>
+                </label>
+                <label for="inp-5">
+                    <input type="checkbox" name="inp">Python</input>
+                </label>
+                <label for="inp-6">
+                    <input type="checkbox" name="inp">Javascript</input>
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">React</input>
+                </label>
+                <label for="inp-8">
+                    <input type="checkbox" name="inp">Angular</input>
+                </label>
+                <label for="inp-9">
+                    <input type="checkbox" name="inp">Laravel</input>
+                </label>
+                <label for="inp-10">
+                    <input type="checkbox" name="inp">Django</input>
+                </label>
+        </div>
+        
+        <div class="form-prop">
+            <label for="comment">
+                Why did you select these programin languages?
+            </label>
+ 
+            <!-- text area -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+
+    </form>
+</body>
+</html>
