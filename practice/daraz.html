@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./daraz.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+        <div class="nav">
+            <a href="#" class="top1">SAVE MORE ON APP</a>
+            <a href="#" class="top">RECHARGE & PAYMENTS</a>
+            <a href="#" class="top">SELL ON DARAZ</a>
+            <a href="#" class="top">CUSTOMER CARE</a>
+            <a href="#" class="top">TRACK MY ORDER</a>
+            <a href="#" class="top">LOGIN</a>
+            <a href="#" class="top">SIGN UP</a>
+            <a href="#" class="top">भाषा परिवर्तन</a> 
+        <!-- <a href="#" class="top">SAVE MORE ON APP</a>
+        <a href="#" class="top">RECHARGE & PAYMENTS</a>
+        <a href="#" class="top">SELL ON DARAZ</a>
+        <a href="#" class="top">CUSTOMER CARE</a>
+        <a href="#" class="top">TRACK MY ORDER</a>
+        <a href="#" class="top">LOGIN</a>
+        <a href="#" class="top">SIGN UP</a>
+        <a href="#" class="top">भाषा परिवर्तन</a> -->
+       </div>
+        <div class="searchb">
+            <a href="#"><img class="logo" src="https://icms-image.slatic.net/images/ims-web/458d4688-ae26-4e6d-8f39-c26194de228a.png"></a>
+            <!-- <div class="search-contrainer"> -->
+                <form>
+                    <input class="search-container" type="text" placeholder="Search in Daraz" name="Search">
+                    <!-- <input type="button" src="data:image/png;base64,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"> -->
+                    <button type="button" name="search" value="search">Search</button>
+                </form>
+            <!-- </div> -->
+            <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAAB8CAMAAABXNwI3AAAAZlBMVEX///8AAAD8/Pz29vY4ODhTU1Pn5+dpaWmcnJyDg4OqqqomJiaXl5e7u7vt7e3w8PDR0dHf39+kpKREREQUFBQ/Pz8yMjItLS2KiorGxsYeHh5hYWFwcHCxsbF8fHyRkZELCwtLS0t69F5eAAAEbUlEQVR4nO2a6ZaiMBCF2XFpQQVUXFp9/5cch1skIaHRMYX0OZPvHxHJTVKpqiye53A4HA6Hw+Fw/C9kiUY+taIH82ipUWyn1uR9+z0sJhaV94ny43BaVeteVfeJTevQq+owrSgv7u2qiQcw2TUyriuVOphWlFc3osrNxDI0vn7FlNOpGlXfU8vQgHWvppbRBWblc3ingA3v2ojaW0tKTr1uzwprn5lV/KL8i62qywii7L3VdgRVO1tR7aRh5WytanPkV2XvrQKK8bVMtrNVU1LWMvHOkJ/s1GS8QL/kif5HnyEIUkKrThtK3NZKEcJbpMT+EJN3pn4LRsoRBKl9qouhUa0HVW2W5mih+ziCYOYbDcyipkhdAZiqejrUM7v9XQIydyV0hbHRfVC1U1TVpg2R0IxBVWtY6nghCKWDquB+o8R46cghqvWjas+kqHFQ1cEY+AB/m7Ooon6PlSJapxiq9ooqsz+zPZtZPTiSL5IlC6hSNJiq9sZ8Q/OOTCn73TAssmRFp6kKr1yV78yMcbcBX/OVHYqNMesNVYHpBWJjTG0gw7rLktCo0lBlCiez4krZkz0Zt0h0w1tTMBMlrapQFNAgZ4FewrUSDChHPqWCsimoxPMZsaSUb5AxpnpJwbbN0b9h8R58K0HOzI/JW3nCuFlgCYIg4lPFJ8qbs4myT9kltPzaHebEGQVp+3yAh7zNf3ph/g1nwmdWD5cITyD9aI46ZBCC/z8KLwrPqyz84FXLThJoC/zoUlYCmTII6aoQv5fStpEPVaybeuRHZd8gj5DOR1cFF6dEYgzxiVNUa1gyA9ArgapSqEIzKvF7yJpbERRrC1GAtFlmgrqqO4xd/E4Rnnc7lFY10tsgGhci/912VQVYDH553d8r5r1+pNwyMcEqUeanmqpEz1pSzQ55wB6dbPxam+hQdWtVrctuIygz5T7aIrs4a89iUmqq9A0Fskt1GcYCPrtrHZC+XtdUYc4uhYqZZpZcFN3W08akGBJaNLaqMBnkQRYCEK+3kvXIvQU4JLHiXHQ749x1DDmmMK+3+gtZSnxZAPRdQY8Xisb04wUqYnpcoEk31iDYwLDnV41weGOf+fGbVWsqNoxx4r2yVjXGmWB4txQVjXImGKbRe1RIXMc6EwzfRE9cfwXJeGZlAUWjqWVojBUErcgRnPiDoBV9xwHTg1yLO2W3xdzi/g0g2Zg9f/GTbMb2VvUp/neQSi9HuxjTf8vsNTj3rbrYXLcYLwja3LcYz1v1Xql8kdFEeZvb26Lq519/m2w7e7BFn5WH5ulHtl+4wZc+XvtAErNBbf59eOs8oOVH+ZEbYEnZDstxcJMz/sjwtSg2PzTdFefGdU45hGLDp4HOUk+kxjerRKnt+HMYofN4ML5lqVeu9wPBTV1qf8CwlNrSF0eQfYvP5PrayCgjHQ+8xkVWvFabOCf7zJ3j1os+uUYVtLI+tYzYnqoifT6x1ud7dLp+7h50kL+2YsmzqS+uOxwOh8PhcDgc/8wfWKg4cQNyRV8AAAAASUVORK5CYII=">
+            <img class="logo" src="https://icms-image.slatic.net/images/ims-web/c116120e-aea1-4350-9f1c-c0eab8783647.gif">
+        </div>
+        <div class="nav2">
+            <div class="nav2-child">
+                <table>
+                    <tr>
+                        <!-- <div class="nav2-child"> -->
+                            <td>Women's Fashion</td>
+                    </tr>
+                            <!-- </div> -->
+                    <tr>
+                        <td>Health and beauty</td> 
+                    </tr>        <!-- <div class="nav2-child"> -->
+                               
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Men's fashion</td>
+                    </tr>   
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Watches,Bags,Jwellery</td>
+                    </tr>            
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <Tr>
+                        <td>Electronic Devices</td>
+                    </Tr>      
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>TV & Home Appliances</td>
+                    </tr>
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Electronic Accessories</td>
+                    </tr> 
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Groceries & Pets</td>
+                    </tr>
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Babies & Toys</td>
+                    </tr>
+                            <!-- </div> -->
+                            <!-- <div class="nav2-child"> -->
+                    <tr>
+                        <td>Home & Life style</td>
+                    </tr>
+                            <!-- </div> -->
+                    
+                    
+                    
+                </table>
+            </div>
+            
+            <div class="nav2-child">
+                <img class="image-nav" src="https://icms-image.slatic.net/images/ims-web/0f92e47f-d21d-4cab-8ae2-25de0f1befad.jpg">
+            </div>
+        </div>
+
+    </div>
+   
+</body>
+</html>
