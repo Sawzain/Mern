@@ -125,3 +125,11 @@ p{
 h2{
     padding: auto;
 }
+/* @media screen and(max-width:480px) {
+    .nav{
+        justify-content: baseline;
+        display: flex;
+        background-color: aqua;
+    }
+    
+} */

@@ -1,0 +1,59 @@
+/* h1{
+    background-color: brown;
+} */
+.grid2{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: blue;
+    overflow-y: auto;
+}
+/* .grid1{
+    background-color: aqua;
+} */
+
+.grid1{
+    background-color: aquamarine;
+    text-align: center;
+}
+.grid1:nth-child(2){
+    background-color: coral;
+}
+.grid1:nth-child(3){
+    background-color: rgb(12, 165, 92);
+}
+.grid1:nth-child(4){
+    background-color: rgb(255, 80, 83);
+}
+.grid1:nth-child(5){
+    background-color: rgb(191, 202, 39);
+}
+.grid1:nth-child(6){
+    background-color: rgb(147, 80, 255);
+}
+.grid1:nth-child(7){
+    background-color: rgb(22, 181, 85);
+}
+.grid1:nth-child(8){
+    background-color: rgb(171, 46, 96);
+}
+@media screen and (min-width:480px) {
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+}
+@media screen and (min-width:800px) {
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+    }
+}
+@media screen and (min-width:1000px) {
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+    }
+}
